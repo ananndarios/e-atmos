@@ -1,1 +1,1 @@
-# e-atmos
+# E-atmos
