@@ -1,0 +1,258 @@
+.icon-bar{
+    background: #1f3a93;
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('../media/font/Roboto-Black.ttf');
+}
+
+body{
+    background: whitesmoke;
+}
+/* INDEX */
+
+.alert-dismissible{
+    border: solid 1px;
+    background-color: red;
+    border-radius: 4px;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+.alert {
+    color: white;
+    text-align: center;
+}
+.content{
+    margin: 16px 32px
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+.title-label{
+    text-align: center;
+    margin: 8px;
+    font-size: 4vw;
+    color: #033575;
+}
+
+.input{
+    border: 1px solid #d4eee4;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: block;
+    padding: 16px 8px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn-login{
+    padding: 12px;
+    border: none;
+    width: 100%;
+    background: #06a012;
+    border-radius: 8px;
+    color: white;
+    margin-right: auto;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 0.015em;
+    box-shadow: 10px 10px 23px -9px rgba(0,0,0,0.75);
+    display: block;
+} 
+
+/* HOME */
+
+.button-home{
+    padding: 20px;
+    border: none;
+    width: 100%;
+    background: #06a012;
+    border-radius: 8px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0.015em;
+    box-shadow: 10px 10px 23px -9px rgba(0,0,0,0.75);
+} 
+
+/* MENU */
+.nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: solid 1px #95a5a6;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+ }
+.icon {
+    width: 30px;
+    transition: width 0.5s;
+}
+
+.icon:hover{
+    filter: grayscale(100%);
+    width: 28px;
+}
+
+/* CARD-AULAS */
+
+.card{
+    width: 300px;
+    /* background-color: white;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 4px; */
+    float: none; 
+    margin: 0 auto;
+}
+
+.logo-aulas{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.title-aula{
+    text-align: center;
+}
+
+/* AULAS */
+
+.class{
+    font-size: 20px;
+    list-style-type: none;
+    color: white;
+}
+.card-title {
+    border: solid 1px #001C43;
+    background: #001C43;
+    border-radius: 4px;
+    text-align: center;
+    margin: 4px;
+    line-height: 10px;
+    padding: 4px;
+}
+.logo-aulas{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   margin-bottom: 50px;
+}
+
+.title-aula{
+    text-align: center;
+}
+.title-head{
+    color:#001C43;
+    font-size: 20px;
+    float: right;
+}
+.icon-head{
+    width: 18px;
+    float: right;
+    padding-right: 2px;
+}
+
+@media only screen and (min-width: 600px) {
+    .title-content{
+        text-align: center;
+        font-size: 40px;
+    }
+  }
+
+.title-content{
+    text-align: center;
+}
+
+/* MENU */
+.nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: solid 1px #95a5a6;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 10px 10px 18px -5px rgba(0,0,0,0.75);
+ }
+.icon {
+    width: 30px;
+    transition: width 0.5s;
+}
+
+.icon:hover{
+    filter: grayscale(100%);
+    width: 28px;
+}
+
+@media only screen and (min-width: 600px) {
+    .icon {
+        width: 50px;
+    }
+    .icon:hover{
+        width: 45px;
+    }
+  }
+
+  /* QRCODE */
+
+  .qrcode{
+    width: 380px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.title-qrcode{
+    color: #001C43;
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 600px) {
+    .qrcode{
+        width: 600px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+   body{
+       width: 150vw;
+   }
+}
+
+a:link {
+    text-decoration: none;
+  }

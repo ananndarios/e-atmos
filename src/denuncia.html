@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="sortcut icon" href="../img/logotipo7.png" type="image/gif"/>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/fileinput.css">
+    <!--link rel="manifest" href="../manifest.webmanifest"-->
+	<title>E-atmos</title>
+
+
+</head>
+<body>
+	<div>
+		<img class="logo" src="../img/logo.png" alt="logo">
+	</div>
+    <form method="POST" action="" enctype="multipart/form-data">
+        <input type="file" name="img" class="form-control">
+
+    </form>
+	<nav class="nav">
+		<a href='./home.html'>
+			<img class="icon" src="../img/home.png" alt="home"/>
+		</a>
+		<a href="denuncia.html">
+			<img class="icon" src="../img/denuncia.png" alt="denuncia"/>
+		</a>
+		<a href="./pontuacao.html">
+			<img class="icon" src="../img/pontuacao.png" alt="pontuacao"/>
+		</a>
+		<a href="./index.html">
+			<img class="icon" src="../img/sair.png" alt="sair"/>
+		</a>
+	</nav>
+</body>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/fileimput.js"></script>
+<script>
+
+$("input[name='img']").fileinput({'showUpload':false, 'uploadUrl': 'file data'});
+
+</script>
+</html>
